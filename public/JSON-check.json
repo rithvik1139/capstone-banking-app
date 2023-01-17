@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "name": "Rithvik",
+            "email": "sun@gmail.com",
+            "password": "funstuff",
+            "balance": 100,
+            "id": ""
+        }
+    ]
+}

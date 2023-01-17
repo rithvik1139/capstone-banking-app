@@ -1,0 +1,34 @@
+{
+    "currentUser": 0,
+    "users": [
+        {
+            "name": "John",
+            "email": "abcd@gmail.com",
+            "password": "123456789",
+            "balance": 100,
+            "transactions": [
+                {
+                    "date": "12/43/2002",
+                    "type": "withdraw",
+                    "amount": 30,
+                    "balance": 50020
+                },
+                {
+                    "date": "12/43/2002",
+                    "type": "deposit",
+                    "amount": 60,
+                    "balance": 50080
+                }
+            ]
+        },
+        {
+            "name": "Jerry",
+            "email": "efgh@gmail.com",
+            "password": "123456789",
+            "balance": 100,
+            "transactions": [
+                {}
+            ]
+        }
+    ]
+}

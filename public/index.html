@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RK Banking App</title>
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body style="background-image: url('./images/background.jpg'); background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;">
+  <!-- we will put our react component inside this div -->
+  <div id="root"></div>
+
+  <!-- load jquery & bootstrap for responsive navbar -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+  <!-- load react -->
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-router@5.2.1/umd/react-router.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-router-dom@5.2.1/umd/react-router-dom.min.js" crossorigin></script>
+
+  <!-- load our react components -->
+  <script src="navbar-basic.js" defer type="text/babel"></script>
+  <script src="welcome.js" defer type="text/babel"></script>
+  <script src="home.js" defer type="text/babel"></script>
+  <script src="login.js" defer type="text/babel"></script>
+  <script src="create-user.js" defer type="text/babel"></script>
+  <script src="context.js" defer type="text/babel"></script>
+  <script src="user-context.js" defer type="text/babel"></script>
+  <script src="navbar.js" defer type="text/babel"></script>
+  <script src="transactions.js" defer type="text/babel"></script>
+  <script src="new-transaction.js" defer type="text/babel"></script>
+  <script src="user-profile.js" defer type="text/babel"></script>
+  <script src="logout.js" defer type="text/babel"></script>
+</body>
+
+</html>
