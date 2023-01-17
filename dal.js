@@ -2,7 +2,7 @@
 
 const MongoClient = require("mongodb").MongoClient;
 const { ObjectId } = require("mongodb");
-const url = "mongodb://localhost:27017";
+const url = "mongodb://192.168.212.200:35500";
 let db = null;
 
 // connect to mongo
