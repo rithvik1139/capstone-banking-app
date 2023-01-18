@@ -47,7 +47,7 @@ function LoginForm(props) {
   let [password, setPassword] = React.useState(userContext.password);
 
   function handleLogin() {
-    const url = `http://localhost:3000/user/login/${email}/${password}`;
+    const url = `/user/login/${email}/${password}`;
     (async () => {
       var res = await fetch(url);
       var data = await res.json();
